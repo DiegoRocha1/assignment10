@@ -1,0 +1,44 @@
+Pediatric Doctor
+
+Color Scheme: 
+ - More flair
+ - Blue is the current
+ - Existing Logo (Text)
+
+Primary Audience:
+ - Young parents
+ - Kid Friendly
+ - Modern Style
+ 
+Conract Form: 
+ - Send email though the site (not open email)
+ - Have clear contact information spread throughout the page
+ 
+Animations: 
+ - Image slideshow would be a good idea
+ - Gallery tab
+  
+Responsive Design:
+ - Yes (phone) 
+
+Social Media:
+ - Instagram
+ - Facebook
+ - Part of the footer
+
+Tabs (navigation):
+ - Home Button
+ - Gallery
+ - About Us (Doctors Biography)
+ - Contact Us
+ - Reviews
+
+CSS:
+ - Have a print CSS
+ - Mobile CSS
+ 
+Home Page: 
+ - Flu Season is coming
+  
+Method of Contact: 
+ - Lecture is now office hours
