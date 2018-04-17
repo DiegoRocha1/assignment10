@@ -3,6 +3,4 @@ Final Assignment for ISTA 230
 
 Team:
 
-Diego 
-Chris
-Seth
+Diego, Chris, Seth
