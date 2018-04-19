@@ -5,11 +5,17 @@ Color Scheme:
  - Blue is the current
  - Existing Logo (Text)
 
+
 Primary Audience:
  - Young parents
  - Kid Friendly
  - Modern Style
- 
+ - Kids under 18
+
+Theme:
+  - Modern Feel
+  - Playful design 
+   
 Conract Form: 
  - Send email though the site (not open email)
  - Have clear contact information spread throughout the page
@@ -29,10 +35,10 @@ Social Media:
 Tabs (navigation):
  - Home Button
  - Gallery
- - About Us (Doctors Biography)
+ - About Us (Doctors Biographies)
  - Contact Us
  - Reviews
-
+ 
 CSS:
  - Have a print CSS
  - Mobile CSS
@@ -42,3 +48,36 @@ Home Page:
   
 Method of Contact: 
  - Lecture is now office hours
+ 
+ISTA Pediatrics:
+   -History/About - 15 Years 
+   -Current website has a lot of issues
+
+Three Most Important Things:
+   - Primarily for getting patients informations
+   - Location, phone number
+   - Marketing
+   - Registration 
+
+Color Scheme 
+  - Currently pretty bland 
+  - Not tied to blue 
+  - Flare? 
+  - Safe Website
+
+Icons
+  - American Medical Association
+  - Board of Pediatrics 
+
+Images
+  - New office
+  - Not necessarily a slide show 
+
+Social media buttons and links
+  - Facebook, Instagram 
+
+Printing
+  Map doesn't show up currently
+  Map, phone number, etc. shouuld be printed out 
+  
+Needs to be unique 
