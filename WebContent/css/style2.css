@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+h1 {
+	text-indent: -9999px;
+	position: absolute;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.tabs {
+	margin: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: auto;
+}
+
+li {
+	float: left;
+	width: 16%;
+	text-align: center;
+	background-color: blue;
+	padding: 1%;
+	color: white;
+	border-radius: 20px;
+}
+
+.slideshow {
+	margin: auto;
+}
+
+.logo {
+	width: 50%;
+	max-width: 500px;
+}
