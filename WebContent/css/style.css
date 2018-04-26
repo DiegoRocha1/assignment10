@@ -1,9 +1,13 @@
 body {
 	margin: 0;
 	pargin: 0;
+	background: linear-gradient(white, blue);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: auto;
 }
 
-h1{
+h1 {
 	text-indent: -99999px;
 	position: absolute;
 }
@@ -11,17 +15,15 @@ h1{
 .container {
 	width: 80%;
 	margin: auto;
-	background-color: blue;
 }
 
 ul {
 	list-style-type: none;
-	
 }
 
 li {
 	float: left;
-	width: 16%;
+	width: 19.5%;
 	text-align: center;
 	padding: 1%;
 	margin-right: .1%;
@@ -32,8 +34,24 @@ li {
 	list-style-position: outside;
 }
 
-li:hover
-{
-	background-color: red;
-	transition: all 2.5s;
+li:hover {
+	background-color: #2b91ff;
+	transition: 1.0s;
+}
+
+.slideshow {
+	width: 90%;
+	margin: auto;
+}
+
+.boxsection {
+	margin: auto;
+}
+
+.box {
+	width: 48%;
+	background-color: blue;
+	float: left;
+	margin: auto;
+	margin: 1%;
 }
