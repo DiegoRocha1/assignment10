@@ -33,6 +33,11 @@ li {
 	border-radius: 20px;
 }
 
+li:hover {
+	background-color: #00a0ff;
+	transition-duration: 2s;
+}
+
 .slideshow {
 	margin: auto;
 }
