@@ -9,9 +9,17 @@ h1 {
 	position: absolute;
 }
 
+.header{
+	background-color: #d9fbef;
+}
+
 .container {
 	width: 90%;
 	margin: auto;
+}
+
+.container, .news{
+	background-color: yellow;
 }
 
 .tabs {
@@ -25,17 +33,18 @@ ul {
 
 li {
 	float: left;
-	width: 16%;
+	width: 19%;
 	text-align: center;
 	background-color: blue;
-	padding: 1%;
 	color: white;
 	border-radius: 20px;
+	color: white;
 }
 
 li:hover {
 	background-color: #00a0ff;
-	transition-duration: 2s;
+	transition-delay: none;
+	transition-duration: .5s;
 }
 
 .slideshow {
@@ -60,4 +69,25 @@ li:hover {
 		width: 100%;
 		padding: 2%;
 	}
+}
+
+a {
+	padding: 5%; text-decoration : none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 90%;
+	display: block;
+	text-decoration: none;
+}
+
+.footer {
+	clear: both;
+	left: 38%;
+	text-align: center;
+	padding: 5%;
+}
+
+.slide, .slide1{
+	height: 450px;
+	text-align: center;
 }
