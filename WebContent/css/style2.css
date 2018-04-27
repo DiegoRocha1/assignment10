@@ -46,3 +46,18 @@ li:hover {
 	width: 50%;
 	max-width: 500px;
 }
+
+@media ( min-width : 601px) {
+	.info {
+		width: 45%;
+		float: left;
+		padding: 2%;
+	}
+}
+
+@media ( max-width : 600px) {
+	.info {
+		width: 100%;
+		padding: 2%;
+	}
+}
