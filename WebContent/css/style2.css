@@ -1,8 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #8c9fa4;
-	
+	background-color: white;
+	line-height: 140%;
 }
 
 h1 {
@@ -10,8 +10,19 @@ h1 {
 	position: absolute;
 }
 
-.header{
+.header {
 	background-color: #4CB0FF;
+}
+
+.contact{
+	float: right;
+	margin: 2%;
+	font-family: sans-serif;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #26597F;
+	width: 20%;
 }
 
 .container {
@@ -32,14 +43,14 @@ li {
 	float: left;
 	width: 19%;
 	text-align: center;
-	background-color: #0072CC;
+	background: linear-gradient(#0091FF, #26597F);
 	color: white;
 	border-radius: 20px;
 	color: white;
 }
 
 li:hover {
-	background-color: #00a0ff;
+	background: linear-gradient(#48B0FF, #26597F);
 	transition-delay: none;
 	transition-duration: .5s;
 }
@@ -69,7 +80,8 @@ li:hover {
 }
 
 a {
-	padding: 5%; text-decoration : none;
+	padding: 5%;
+	text-decoration: none;
 	color: white;
 	font-family: sans-serif;
 	font-size: 90%;
@@ -82,15 +94,31 @@ a {
 	left: 38%;
 	text-align: center;
 	padding: 5%;
+	font-family: sans-serif;
+	color: #00497F;
 }
 
-.slide, .slide1{
+.slide, .slide1 {
 	height: 450px;
 	text-align: center;
 }
 
-.info{
+.info {
 	background-color: #26597F;
 	margin: 1% .5%;
 	color: white;
+	font-family: sans-serif;
+}
+
+.info h2{
+	text-decoration: underline;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+.icon{
+	margin: 2%;
+	width: 20%;
 }
