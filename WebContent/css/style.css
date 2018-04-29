@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	background-color: #8c9fa4;
 	
+	
 }
 
 h1 {
@@ -97,16 +98,17 @@ a {
 
 /*'Contact Us' page code start*/
 #contactInfo{
+	
 	width: 60%;
-	height: 80%;
-	margin-left: 20%;
 	margin-right: 20%;
+	margin-left: 20%;
 	margin-top: 3%;
 	padding: 1%;
 	background-color: lightgray;
 	font-size: 1.2em;
 	position: fixed;
-	overflow: auto;
+	overflow: display;
+	
 }
 
 #messageForm{
@@ -115,10 +117,20 @@ a {
 	float: left;
 }
 
+#googleMaps{
+	
+	display: inline-block;
+	float: right;
+	width: 200px;;
+	height: 200px;
+	padding-top: 20%;
+}
+
 #officeInfo{
 	
+	display:inline-block;
 	float: left;
-	text-align: right;
+	text-align: center;
 	
 }
 
@@ -138,6 +150,10 @@ a {
 	font-size: 1em;
 	color: white;
 	
+}
+
+#cu{
+	font-style: italic;
 }
 
 /**/
