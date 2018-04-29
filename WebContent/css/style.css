@@ -97,6 +97,8 @@ a {
 
 /*'Contact Us' page code start*/
 #contactInfo{
+	width: 60%;
+	height: 80%;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-top: 3%;
@@ -104,6 +106,7 @@ a {
 	background-color: lightgray;
 	font-size: 1.2em;
 	position: fixed;
+	overflow: auto;
 }
 
 #messageForm{
@@ -113,8 +116,8 @@ a {
 }
 
 #officeInfo{
-	float: right;
-	display: inline-block;
+	
+	float: left;
 	text-align: right;
 	
 }
@@ -128,11 +131,11 @@ a {
 #submitMessage{
 	
 	position: relative;
-	left: 60%;
+	left: 40%;
 	display: inline-block;
 	background-color: #0072CC;
 	padding: 15px 32px;
-	font-size: 1.2em;
+	font-size: 1em;
 	color: white;
 	
 }
