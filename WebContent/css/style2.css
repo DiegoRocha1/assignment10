@@ -126,3 +126,27 @@ h2 {
 	margin: 2%;
 	width: 10%;
 }
+
+.rev {
+	width: 45%;
+	float: right;
+	background-color: #26597F;
+	margin: 1%;
+	padding: 1%;
+	color: white;
+	font-family: arial;
+}
+
+.review {
+	text-align: center;
+}
+
+.rev::before {
+	background-image: url('..//images/quote.png');
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	content: "";
+}
