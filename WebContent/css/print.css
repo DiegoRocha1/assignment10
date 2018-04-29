@@ -1,11 +1,41 @@
 body {
-	
+	margin: 0;
+	padding: 0; 
 }
 
 h1 {
-	
+
+}
+
+.container:before {
+	content: "1501 W Sentinel Peak Rd \AS Tucson, AZ 85745 ";
+	white-space: pre; 
 }
 
 h2 {
 	
+}
+
+.info {
+	color: #000;
+}
+
+.header {
+	background-color: white;
+}
+
+.slideshow, .tabs, .info img {
+	display: none; 
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0; 
+	left: 25%;
+	text-align: center;
 }
