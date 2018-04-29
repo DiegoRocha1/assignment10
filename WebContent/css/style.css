@@ -107,7 +107,7 @@ a {
 	background-color: lightgray;
 	font-size: 1.2em;
 	position: fixed;
-	overflow: display;
+	overflow: auto;
 	
 }
 
