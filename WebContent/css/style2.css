@@ -74,12 +74,57 @@ li:hover {
 		float: left;
 		padding: 2%;
 	}
+	.rev {
+		width: 45%;
+		float: right;
+		background-color: #26597F;
+		margin: 1%;
+		padding: 1%;
+		color: white;
+		font-family: arial;
+	}
+	.review {
+		text-align: center;
+	}
+	.rev::before {
+		background-image: url('..//images/quote.png');
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		content: "";
+		display: inline-block;
+	}
 }
 
 @media ( max-width : 600px) {
 	.info {
 		width: 100%;
 		padding: 2%;
+	}
+	.rev {
+		width: 90%;
+		background-color: #26597F;
+		margin: 1%;
+		padding: 1%;
+		color: white;
+		font-family: arial;
+		margin: auto;
+		margin-bottom: 1%;
+	}
+	.review {
+		text-align: center;
+	}
+	.rev::before {
+		background-image: url('..//images/quote.png');
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		content: "";
+		display: inline-block;
 	}
 }
 
@@ -127,26 +172,48 @@ h2 {
 	width: 10%;
 }
 
-.rev {
-	width: 45%;
-	float: right;
-	background-color: #26597F;
-	margin: 1%;
-	padding: 1%;
+/* About Page */
+.bios {
+	width: 80%;
+	margin: auto;
 	color: white;
-	font-family: arial;
+	font-family: sans-serif;
 }
 
-.review {
+.bios h2 {
+	text-align: center;
+	color: black
+}
+
+.doc {
+	background-color: #26597F;
+	padding: 2%;
+	margin: 1%;
+	width: 50$
+}
+
+.doctors {
+	width: 40%;
+	margin-left: 30%;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+/* Contact page */
+#cu{
 	text-align: center;
 }
+.messageForm {
+	background-color: #26597F;
+	padding: 1%;
+}
 
-.rev::before {
-	background-image: url('..//images/quote.png');
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	content: "";
+.contactInfo{
+	width: 80%;
+	margin: auto;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 2%;
 }
