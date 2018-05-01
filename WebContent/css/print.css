@@ -3,7 +3,7 @@ body {
 	padding: 0;
 }
 
-.container:before {
+.container:before, .review:before, .contactInfo:before {
 	content: "1501 W Sentinel Peak Rd \AS Tucson, AZ 85745\A\A Phone: 520-555-1234 \A FAX: 520-555-5678 \AOffice Hours: Monday – Friday, 9am-6pm. Call for appointments before 9am. ";
 	white-space: pre;
 }
