@@ -31,15 +31,21 @@
 	</div>
 	<br>
 	<br>
-	
-	<div class="contactInfo">
-		<div class="messageForm">
+
+	<div id="contactInfo">
+		<div id="messageForm">
 			<h2 id="cu">Contact Us!</h2>
-			<p>We are here to answer any questions or concerns you may have.
-				Feel free to ask us anything and we will be sure to email you back
-				promptly.</p>
+			<p>
+				We are here to answer any questions or concerns you may
+				have. Feel free to ask us anything and we will be sure to
+				email you back promptly.
+
+			</p>
+
 			<form action="http://ista230.com/resources/formSubmission"
 				method="post">
+
+
 
 				<fieldset id="field">
 					<label for="firstName">First name</label> <input type="text"
@@ -47,47 +53,66 @@
 						name</label> <input type="text" id="lastName"> <br> <br>
 					Your message <br>
 					<textarea rows="7" cols="50"></textarea>
-
 					<br>
 					<button type="submit" id="submitMessage">Send Message</button>
 				</fieldset>
 			</form>
+		</div>
 
 		<div id="officeInfo">
-
 			<h3>Location</h3>
 
 			<p>
 				ISTA Pediatrics <br> 1501 W Sentinel Peak Rd S<br> Tucson,
 				AZ 85745
-
 			</p>
+
 			<h3>Office Hours</h3>
+
 			<p>
 				Monday – Friday, 9am-6pm.<br>Call for appointments before 9am.
 			</p>
+
 			<h3>Contact Us</h3>
+
 			<p>
 				Phone: 520-555-1234<br> FAX: 520-555-5678
 			</p>
+
 		</div>
 
+
+
 		<div id="googleMaps"></div>
+
 	</div>
 
+
+
 	<!--Start JavaScript-->
+
 	<script>
 		//Function to create the Google Maps map
-		function myMap() {
+
+		function myMap()
+
+		{
+
 			var istaLoc = {
 				lat : 32.214035,
 				lng : -110.998219
 			}
 
-			var mapOptions = {
+			var mapOptions =
+
+			{
+
 				center : istaLoc,
+
 				zoom : 15,
+
 				mapTypeId : google.maps.MapTypeId.roadmap
+
 			};
 
 			var map = new google.maps.Map(
@@ -97,14 +122,21 @@
 				position : istaLoc,
 				map : map
 			});
+
 		}
 	</script>
+
 	<!--Link to Google Maps API-->
+
 	<script async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSy
+
         CUU1CuFXtmWV_0HUrpxMX2mCSImGd_ZHs&callback=myMap">
 		
 	</script>
+
 	<!--End JacaScript-->
+
 </body>
+
 </html>

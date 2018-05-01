@@ -202,18 +202,46 @@ h3 {
 }
 
 /* Contact page */
-#cu{
-	text-align: center;
-}
-.messageForm {
-	background-color: #26597F;
-	padding: 1%;
-}
-
-.contactInfo{
-	width: 80%;
-	margin: auto;
-	color: white;
-	font-family: sans-serif;
-	margin-top: 2%;
+@media ( min-width : 750px) {
+	#contactInfo {
+		width: 90%;
+		margin: auto;
+		margin-top: 2%;
+		padding: 1%;
+		background-color: lightgray;
+		font-size: 1.2em;
+		overflow: auto;
+	}
+	#messageForm {
+		float: left;
+		width: 30%;
+	}
+	#googleMaps {
+		float: right;
+		width: 33.33%;
+		height: 200px;
+		padding-top: 20%;
+	}
+	#officeInfo {
+		float: left;
+		text-align: center;
+		width: 30%;
+		margin: auto;
+	}
+	#field {
+		width: 90%;
+	}
+	#submitMessage {
+		left: 40%;
+		background-color: #0072CC;
+		padding: 15px 32px;
+		font-size: 1em;
+		color: white;
+	}
+	#cu {
+		font-style: italic;
+	}
+	textarea {
+		width: 100%;
+	}
 }
