@@ -25,7 +25,7 @@ h1 {
 	margin: 1%;
 }
 
-li:hover {
+.tab:hover {
 	background: linear-gradient(cyan, #26597F);
 	transition-delay: none;
 	transition-duration: .5s;
@@ -97,8 +97,10 @@ li:hover {
 
 @media ( max-width : 600px) {
 	.logo {
+		display: block;
 		text-align: center;
 		max-width: 500px;
+		margin: auto;
 	}
 	.contact {
 		font-family: sans-serif;
