@@ -16,7 +16,6 @@ h1 {
 }
 
 .contact {
-	float: right;
 	margin: 2%;
 	font-family: sans-serif;
 	position: absolute;
@@ -128,7 +127,7 @@ li:hover {
 	}
 }
 
-a {
+.tablink {
 	padding: 5%;
 	text-decoration: none;
 	color: white;
@@ -244,4 +243,23 @@ h3 {
 	textarea {
 		width: 100%;
 	}
+}
+
+.media{
+	width: 20px;
+	margin: 1%;
+	text-align: center;
+}
+
+.socialmediabottom{
+	width: 30%;
+	margin-top: 0;
+	position: absolute;
+	right: 0;
+	margin: 1%;
+	text-align: center;
+}
+
+.socialmediatop{
+	top: 5%;
 }
