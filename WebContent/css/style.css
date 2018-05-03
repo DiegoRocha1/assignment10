@@ -1,17 +1,23 @@
+/*
+Begin styling for the body 
+*/
 body {
 	margin: 0;
 	padding: 0;
 	background-color: #8c9fa4;
-	
-	
 }
 
+/*
+h1 Styling for ISTA Pediatrics
+We will use a text-indent of -9999px to 
+ensure we can display the ISTA pediatrics logo
+*/
 h1 {
 	text-indent: -9999px;
 	position: absolute;
 }
 
-.header{
+.header {
 	background-color: #4CB0FF;
 }
 
@@ -54,6 +60,9 @@ li:hover {
 	max-width: 500px;
 }
 
+/*
+Styling to address width and padding for devices of different widths
+*/
 @media ( min-width : 601px) {
 	.info {
 		width: 45%;
@@ -70,7 +79,8 @@ li:hover {
 }
 
 a {
-	padding: 5%; text-decoration : none;
+	padding: 5%;
+	text-decoration: none;
 	color: white;
 	font-family: sans-serif;
 	font-size: 90%;
@@ -85,20 +95,19 @@ a {
 	padding: 5%;
 }
 
-.slide, .slide1{
+.slide, .slide1 {
 	height: 450px;
 	text-align: center;
 }
 
-.info{
+.info {
 	background-color: #26597F;
 	margin: 1% .5%;
 	color: white;
 }
 
 /*'Contact Us' page code start*/
-#contactInfo{
-	
+#contactInfo {
 	width: 60%;
 	margin-right: 20%;
 	margin-left: 20%;
@@ -108,17 +117,14 @@ a {
 	font-size: 1.2em;
 	position: fixed;
 	overflow: auto;
-	
 }
 
-#messageForm{
-	
+#messageForm {
 	display: inline-block;
 	float: left;
 }
 
-#googleMaps{
-	
+#googleMaps {
 	display: inline-block;
 	float: right;
 	width: 200px;;
@@ -126,22 +132,17 @@ a {
 	padding-top: 20%;
 }
 
-#officeInfo{
-	
-	display:inline-block;
+#officeInfo {
+	display: inline-block;
 	float: left;
 	text-align: center;
-	
 }
 
-#field{
-	
+#field {
 	width: 20%;
-	
 }
 
-#submitMessage{
-	
+#submitMessage {
 	position: relative;
 	left: 40%;
 	display: inline-block;
@@ -149,10 +150,9 @@ a {
 	padding: 15px 32px;
 	font-size: 1em;
 	color: white;
-	
 }
 
-#cu{
+#cu {
 	font-style: italic;
 }
 
