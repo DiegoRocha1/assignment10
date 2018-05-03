@@ -11,19 +11,6 @@ h1 {
 	position: absolute;
 }
 
-.header {
-	background-color:;
-}
-
-.contact {
-	margin: 2%;
-	font-family: sans-serif;
-	position: absolute;
-	top: 0;
-	right: 15%;
-	color: #26597F;
-}
-
 .container {
 	width: 90%;
 	margin: auto;
@@ -36,16 +23,6 @@ h1 {
 .tabs {
 	list-style-type: none;
 	margin: 1%;
-}
-
-.tab {
-	float: left;
-	width: 19%;
-	text-align: center;
-	background: linear-gradient(#0091FF, #26597F);
-	color: white;
-	border-radius: 20px;
-	color: white;
 }
 
 li:hover {
@@ -62,12 +39,19 @@ li:hover {
 	margin: auto;
 }
 
-.logo {
-	width: 50%;
-	max-width: 500px;
-}
-
 @media ( min-width : 601px) {
+	.logo {
+		width: 50%;
+		max-width: 500px;
+	}
+	.contact {
+		margin: 2%;
+		font-family: sans-serif;
+		position: absolute;
+		top: 0;
+		right: 15%;
+		color: #26597F;
+	}
 	.info {
 		width: 45%;
 		float: left;
@@ -95,9 +79,39 @@ li:hover {
 		content: "";
 		display: inline-block;
 	}
+	.tab {
+		float: left;
+		width: 19%;
+		text-align: center;
+		background: linear-gradient(#0091FF, #26597F);
+		color: white;
+		border-radius: 20px;
+		color: white;
+	}
+	.tablink {
+		padding: 5%;
+		text-decoration: none;
+		color: white;
+		font-family: sans-serif;
+		font-size: 90%;
+		display: block;
+		text-decoration: none;
+	}
 }
 
 @media ( max-width : 600px) {
+	.logo {
+		text-align: center;
+		max-width: 500px;
+	}
+	.contact {
+		font-family: sans-serif;
+		top: 0;
+		right: 15%;
+		color: #26597F;
+		margin: auto;
+		text-align: center;
+	}
 	.info {
 		width: 100%;
 		padding: 2%;
@@ -125,16 +139,28 @@ li:hover {
 		content: "";
 		display: inline-block;
 	}
-}
-
-.tablink {
-	padding: 5%;
-	text-decoration: none;
-	color: white;
-	font-family: sans-serif;
-	font-size: 90%;
-	display: block;
-	text-decoration: none;
+	.tab {
+		width: 100%;
+		text-align: center;
+		background: linear-gradient(#0091FF, #26597F);
+		color: white;
+		border-radius: 20px;
+		color: white;
+		margin: auto;
+		margin-top: 3%;
+	}
+	.tablink {
+		padding: 2%;
+		text-decoration: none;
+		color: white;
+		font-family: sans-serif;
+		font-size: 90%;
+		display: block;
+		text-decoration: none;
+	}
+	.slideshow {
+		margin-top: -10%;
+	}
 }
 
 .footer {
@@ -245,21 +271,22 @@ h3 {
 	}
 }
 
-.media{
+.media {
 	width: 20px;
 	margin: 1%;
 	text-align: center;
 }
 
-.socialmediabottom{
+.socialmediabottom {
 	width: 30%;
 	margin-top: 0;
 	position: absolute;
 	right: 0;
 	margin: 1%;
 	text-align: center;
+	margin-top: 0;
 }
 
-.socialmediatop{
+.socialmediatop {
 	top: 5%;
 }
