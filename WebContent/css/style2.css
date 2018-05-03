@@ -197,7 +197,7 @@ h2 {
 
 /* About Page */
 .bios {
-	width: 80%;
+	width: 70%;
 	margin: auto;
 	color: white;
 	font-family: sans-serif;
@@ -212,7 +212,6 @@ h2 {
 	background-color: #26597F;
 	padding: 2%;
 	margin: 1%;
-	width: 50$
 }
 
 .doctors {
@@ -331,4 +330,20 @@ h3 {
 .last {
 	float: left;
 	margin-left: 3%;
+}
+
+/* Gallery */
+@media ( max-width : 751px) {
+	.gallery {
+		display: block;
+		width: 75%;
+		margin: auto;
+		margin-bottom: 2%;
+	}
+}
+
+@media ( min-width : 750px) {
+	.gallery {
+		width: 40%;
+	}
 }
